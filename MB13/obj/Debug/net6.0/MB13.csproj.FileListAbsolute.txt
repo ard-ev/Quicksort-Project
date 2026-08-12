@@ -1,0 +1,15 @@
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\bin\Debug\net6.0\MB13.exe
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\bin\Debug\net6.0\MB13.deps.json
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\bin\Debug\net6.0\MB13.runtimeconfig.json
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\bin\Debug\net6.0\MB13.dll
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\bin\Debug\net6.0\MB13.pdb
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.AssemblyInfoInputs.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.AssemblyInfo.cs
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.sourcelink.json
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.dll
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\refint\MB13.dll
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.pdb
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\MB13.genruntimeconfig.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB13\obj\Debug\net6.0\ref\MB13.dll

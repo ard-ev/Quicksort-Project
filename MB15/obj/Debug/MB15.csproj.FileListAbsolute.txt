@@ -1,0 +1,10 @@
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\bin\Debug\MB15.exe.config
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\bin\Debug\MB15.exe
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\bin\Debug\MB15.pdb
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.csproj.AssemblyReference.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.Properties.Resources.resources
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.SortComparison.frmMain.resources
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.csproj.GenerateResource.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.csproj.CoreCompileInputs.cache
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.exe
+C:\Users\sadik\source\repos\LAFI01\ZbW.PF2.U\MB15\obj\Debug\MB15.pdb
