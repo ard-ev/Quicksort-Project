@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33829.357
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12105.206 oobstable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB13", "MB13\MB13.csproj", "{6E2A31E1-0EBE-4731-B241-5B66B284932C}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB16", "MB16\MB16.csproj", "{292E48FB-A636-4987-9CBC-9C0A86CFC4B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB15", "MB15\MB15.csproj", "{B5E923DC-F708-44A8-9802-B7D8D2C80270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{35E4718B-B78B-4F49-B0E8-F9182956037A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +47,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E2A31E1-0EBE-4731-B241-5B66B284932C} = {35E4718B-B78B-4F49-B0E8-F9182956037A}
+		{BF5276B6-FC54-41F4-8F1C-66F483AEE374} = {35E4718B-B78B-4F49-B0E8-F9182956037A}
+		{D16DDA2A-61D3-4F7A-B835-BEF5F6AA9B1C} = {35E4718B-B78B-4F49-B0E8-F9182956037A}
+		{292E48FB-A636-4987-9CBC-9C0A86CFC4B1} = {35E4718B-B78B-4F49-B0E8-F9182956037A}
+		{B5E923DC-F708-44A8-9802-B7D8D2C80270} = {35E4718B-B78B-4F49-B0E8-F9182956037A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81BE65FB-BBAD-45E6-9841-A1CEBD7A25C4}

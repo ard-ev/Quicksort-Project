@@ -9,86 +9,73 @@ namespace MB15.SortComparison.SortingAlgorithms
 
         public override void Sort(IList<int> arrayToSort)
         {
-            QuickSortAlgorithm(
-                arrayToSort,
-                0,
-                arrayToSort.Count - 1
-            );
+            QuickSortAlgorithm(arrayToSort, 0, arrayToSort.Count -1);
         }
 
-        private void QuickSortAlgorithm(
-            IList<int> arrayToSort,
-            int links,
-            int rechts)
+        private void QuickSortAlgorithm(IList<int> array, int links, int rechts)
         {
-            if (links < rechts)
+            if (links >= rechts)
+                return;
+
+            int i = links;
+            int j = rechts;
+
+
+            int pivot = array[(links + rechts) / 2];
+
+            while (i<= j)
             {
-                int pivotPosition = Partition(
-                    arrayToSort,
-                    links,
-                    rechts
-                );
-
-                // Linken Bereich sortieren
-                QuickSortAlgorithm(
-                    arrayToSort,
-                    links,
-                    pivotPosition - 1
-                );
-
-                // Rechten Bereich sortieren
-                QuickSortAlgorithm(
-                    arrayToSort,
-                    pivotPosition + 1,
-                    rechts
-                );
-            }
-        }
-
-        private int Partition(
-            IList<int> arrayToSort,
-            int links,
-            int rechts)
-        {
-            // Das letzte Element wird als Pivot gewählt
-            int pivot = arrayToSort[rechts];
-
-            // Pivot in der Darstellung hervorheben
-            HighlightIndex(rechts);
-
-            int kleinerePosition = links - 1;
-
-            for (int i = links; i < rechts; i++)
-            {
-                // Verglichenes Element hervorheben
-                HighlightIndex(i);
-
-                if (arrayToSort[i] <= pivot)
+                while (array[i] < pivot)
                 {
-                    kleinerePosition++;
+                    i++;
+                }
 
-                    int zwischenspeicher =
-                        arrayToSort[kleinerePosition];
 
-                    arrayToSort[kleinerePosition] =
-                        arrayToSort[i];
+                while (array[j] > pivot)
+                {
+                    j--;
+                }
 
-                    arrayToSort[i] = zwischenspeicher;
+                if (i <= j)
+                {
+                    int temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+
+                    i++;
+                    j--;
                 }
             }
 
-            // Pivot an seine endgültige Position verschieben
-            int temp = arrayToSort[kleinerePosition + 1];
+            if (links < j)
+            {
+                QuickSortAlgorithm(array, links, j);
+            }
 
-            arrayToSort[kleinerePosition + 1] =
-                arrayToSort[rechts];
+            if (i < rechts)
+            {
+                QuickSortAlgorithm(array, i, rechts);
+            }
 
-            arrayToSort[rechts] = temp;
-
-            // Endgültige Pivot-Position hervorheben
-            HighlightIndex(kleinerePosition + 1);
-
-            return kleinerePosition + 1;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

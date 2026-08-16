@@ -1,44 +1,37 @@
 ﻿using System.Collections.Generic;
+using MB15.SortComparison;
 
-namespace MB15.SortComparison.SortingAlgorithms
+namespace MB11.SortComparison.SortingAlgorithms.Lsg
 {
     public class BubbleSort : SortAlgorithm
     {
         public override string Name => "Bubblesort";
-
         public override void Sort(IList<int> arrayToSort)
         {
-            for (int i = 0; i < arrayToSort.Count - 1; i++)
+            var swapMade = true;
+            var n = arrayToSort.Count - 1;
+            for (var i = 0; i < n && swapMade; i++)
             {
-                for (int j = 0;
-                     j < arrayToSort.Count - 1 - i;
-                     j++)
-                {
-                    // Zwei benachbarte Elemente vergleichen
-                    HighlightIndex(j);
-                    HighlightIndex(j + 1);
+                swapMade = false;
 
-                    if (arrayToSort[j] > arrayToSort[j + 1])
+                for (var j = n; j > i; j--)
+                {
+                    var num1 = arrayToSort[j - 1];
+                    var num2 = arrayToSort[j];
+                    if (num1 > num2)
                     {
-                        SwapItems(arrayToSort, j, j + 1);
+                        SwapItems(arrayToSort, j - 1, j);
+                        swapMade = true;
                     }
                 }
             }
         }
 
-        private void SwapItems(
-            IList<int> arrayToSort,
-            int index1,
-            int index2)
+        private void SwapItems(IList<int> arrayToSort, int index1, int index2)
         {
-            int zwischenspeicher = arrayToSort[index1];
-
+            var temp = arrayToSort[index1];
             arrayToSort[index1] = arrayToSort[index2];
-            arrayToSort[index2] = zwischenspeicher;
-
-            // Vertauschte Elemente in der Darstellung markieren
-            HighlightIndex(index1);
-            HighlightIndex(index2);
+            arrayToSort[index2] = temp;
         }
     }
 }

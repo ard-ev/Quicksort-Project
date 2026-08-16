@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sadik\\source\\repos\\LAFI01\\ZbW.PF2.U\\MB17\\MB17.csproj",
+      "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Documents\\GitHub\\Quicksort-Project\\MB17\\MB17.csproj",
       "projectName": "MB17",
-      "projectPath": "C:\\Users\\sadik\\source\\repos\\LAFI01\\ZbW.PF2.U\\MB17\\MB17.csproj",
+      "projectPath": "C:\\Users\\sadik\\OneDrive\\Documents\\GitHub\\Quicksort-Project\\MB17\\MB17.csproj",
       "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sadik\\source\\repos\\LAFI01\\ZbW.PF2.U\\MB17\\obj\\",
+      "outputPath": "C:\\Users\\sadik\\OneDrive\\Documents\\GitHub\\Quicksort-Project\\MB17\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
